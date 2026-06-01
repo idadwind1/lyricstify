@@ -3,7 +3,7 @@ import { ClientEntity } from '../../client/entities/client.entity.js';
 export class RequestAuthorizationDto {
   responseType = 'code';
   scope = 'user-read-currently-playing';
-  redirectUri = 'http://localhost:{port}/api/v1/authorize';
+  redirectUri = 'http://127.0.0.1:{port}/api/v1/authorize';
   clientId: ClientEntity['id'];
   redirectUriPort: number;
 

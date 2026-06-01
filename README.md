@@ -131,9 +131,9 @@ Before you can use Lyricstify, you need to generate the Client ID and Client Sec
 - Log in to [Spotify Developer](https://developer.spotify.com/)
 - Go to [your Spotify Applications Dashboard](https://developer.spotify.com/dashboard/) and click on the _Create app_ button.
 - Enter an _App name_ and _App description_ of your choice (they will be displayed to the user on the grant screen)
-- Pay attention to _Redirect URI_, fill in `http://localhost:3000/api/v1/authorize`.
+- Pay attention to _Redirect URI_, fill in `http://127.0.0.1:3000/api/v1/authorize`.
 
-  > If port 3000 on your OS is already in use by another application, you can replace it with another unused URI port like `http://localhost:8080/api/v1/authorize`. Just make sure you fill in the same port number when running the `lyricstify init` command.
+  > If port 3000 on your OS is already in use by another application, you can replace it with another unused URI port like `http://127.0.0.1:8080/api/v1/authorize`. Just make sure you fill in the same port number when running the `lyricstify init` command.
 
 - Put a tick in the _Developer Terms of Service_ checkbox and finally click on _Save_.
 
